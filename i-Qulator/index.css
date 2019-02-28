@@ -1,0 +1,52 @@
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.button{
+       width: 50px;
+       height: 50px;
+       font-size: 25px;
+       margin: 2px;
+       cursor: pointer;
+       background: #607d8b;
+       color: white;
+       border: none;
+}
+
+.textview{
+       width: 215px;
+       margin: 5px;
+       padding:5px;
+       font-size: 25px;
+       border: none;
+       color: #607d8b;
+
+}
+
+#zero{
+  width: 106px
+}
+
+#equal{
+  height: 106px
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#calculator{font-family: monospace;
+           font-size: 70px;
+           margin-top: 80px;
+           margin-bottom: -50px
+            }
+
+.bg{
+  background: linear-gradient(to right, #E91E63, #607D8B);
+  height: 687px;
+  margin-top: -80px;
+}
